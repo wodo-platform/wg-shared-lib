@@ -1,3 +1,7 @@
+/**
+ * Gamers aka players can join gaming lounges with different hats. If a gamer pays the enterence fee to join a gaming lounge
+ * he gets "player" status and play configured game in a gaming lounge.
+ */
 export interface GamerStatus {
     id:number;
     name:string;

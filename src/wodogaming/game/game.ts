@@ -1,3 +1,7 @@
+/**
+ * Game interface defines fundamental attributes of Games in the wodo gaming system.
+ * Each game has a unique numeric id,
+ */
 export interface Game {
     id:number;
     name:string;
