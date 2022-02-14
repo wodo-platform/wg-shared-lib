@@ -23,6 +23,12 @@ export const WG_ERROR_INTERNAL_SERVER: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"1",
     description: "Internal server error. Something has gone wrong."
 },
+
+WG_ERROR_GH_VALIDATION : WGErrorCode = {
+    code: WG_ERORCODE_PREFIX+"50",
+    description: "Game Hub validation error."
+},
+
 WG_ERROR_GL_CREATE: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"100",
     description: "Gaming Lounge can not be created."
