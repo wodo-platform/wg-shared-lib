@@ -24,6 +24,11 @@ export const WG_ERROR_INTERNAL_SERVER: WGErrorCode = {
     description: "Internal server error. Something has gone wrong."
 },
 
+WG_ERROR_WG_VALIDATION : WGErrorCode = {
+    code: WG_ERORCODE_PREFIX+"49",
+    description: "Wodo Gaming general validation error."
+},
+
 WG_ERROR_GH_VALIDATION : WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"50",
     description: "Game Hub validation error."
@@ -31,28 +36,28 @@ WG_ERROR_GH_VALIDATION : WGErrorCode = {
 
 WG_ERROR_GL_CREATE: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"100",
-    description: "Gaming Lounge can not be created."
+    description: "Game Lounge can not be created."
 },
 WG_ERROR_GL_CREATE_VALIDATION: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"101",
-    description: "Gaming Lounge validation error."
+    description: "Game Lounge validation error."
 },
 WG_ERROR_GL_CREATE_EXIST: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"102",
-    description: "Gaming Lounge already exists."
+    description: "Game Lounge already exists."
 },
 WG_ERROR_GL_NOT_FOUND: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"104",
-    description: "Gaming Lounge not found."
+    description: "Game Lounge not found."
 },
 WG_ERROR_GL_UPDATE: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"105",
-    description: "Gaming Lounge can not be updated."
+    description: "Game Lounge can not be updated."
 },WG_ERROR_GL_TPYE_UPDATE: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"106",
-    description: "Gaming Lounge type is not allowed to be changed."
+    description: "Game Lounge type is not allowed to be changed."
 },
 WG_ERROR_GL_GAME_TPYE_UPDATE: WGErrorCode = {
     code: WG_ERORCODE_PREFIX+"107",
-    description: "Gaming Lounge game type is not allowed to be changed."
+    description: "Game Lounge game type is not allowed to be changed."
 };
