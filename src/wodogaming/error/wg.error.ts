@@ -9,7 +9,7 @@ export class WGError extends Error {
     
     private errorCode:WGErrorCode;
 
-    constructor(errorCode:WGErrorCode, message?:string) {
+    constructor(errorCode:WGErrorCode, message:string) {
         super(errorCode.code + ":" + errorCode.description + ". Message:"+message);
         this.errorCode = errorCode;
     }
