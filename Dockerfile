@@ -1,4 +1,4 @@
-FROM node:14.18-alpine As development
+FROM node:16.15-alpine As development
 
 ARG NPM_TOKEN
 
@@ -21,7 +21,7 @@ COPY . .
 RUN npm run build
 
 
-FROM node:14.18-alpine as production
+FROM node:16.15-alpine as production
 
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
